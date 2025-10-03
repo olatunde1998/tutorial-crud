@@ -81,7 +81,7 @@ const TodoApp: React.FC = () => {
     <div
       className="min-h-screen bg-cover bg-center flex items-center justify-center p-4"
       style={{
-        backgroundImage: "url('/src/assets/rocket-image.png')",
+        backgroundImage: "url('src/assets/rocket-image.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
