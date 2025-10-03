@@ -44,7 +44,8 @@ export const useGetTodosRequest = () => {
     queryFn: async () => {
       try {
         const response = await axios.get(
-          `${baseURL}/todos?query=reactjs&complete=false`,
+          `${baseURL}/todos`,
+          // `${baseURL}/todos?query=reactjs&complete=false`,
           {
             headers: {
               Accept: "application/json",
