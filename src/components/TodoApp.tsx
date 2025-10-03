@@ -79,13 +79,13 @@ const TodoApp: React.FC = () => {
 
   return (
     <div
-      className="min-h-screen bg-cover bg-center flex items-center justify-center p-4"
-      style={{
-        backgroundImage: "url('src/assets/rocket-image.png')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-      }}
+      className="min-h-screen flex items-center justify-center p-4 bg-[url('src/assets/rocket-image.png')] bg-repeat bg-center bg-blend-multiply bg-cover"
+      // style={{
+      //   backgroundImage: "url('src/assets/rocket-image.png')",
+      //   backgroundSize: "cover",
+      //   backgroundPosition: "center",
+      //   backgroundRepeat: "no-repeat",
+      // }}
     >
       <div className="w-full  grid grid-cols-1 md:grid-cols-2 gap-6 p-4">
         {/* Left Panel - Ongoing Tasks */}
