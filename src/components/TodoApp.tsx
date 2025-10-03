@@ -78,15 +78,7 @@ const TodoApp: React.FC = () => {
     .join(".");
 
   return (
-    <div
-      className="min-h-screen flex items-center justify-center p-4 bg-[url('src/assets/rocket-image.png')] bg-repeat bg-center bg-blend-multiply bg-cover"
-      // style={{
-      //   backgroundImage: "url('src/assets/rocket-image.png')",
-      //   backgroundSize: "cover",
-      //   backgroundPosition: "center",
-      //   backgroundRepeat: "no-repeat",
-      // }}
-    >
+    <div className="min-h-screen flex items-center justify-center p-4 bg-[url('src/assets/rocket-image.png')] bg-repeat bg-center bg-blend-multiply bg-cover">
       <div className="w-full  grid grid-cols-1 md:grid-cols-2 gap-6 p-4">
         {/* Left Panel - Ongoing Tasks */}
         <div className="backdrop-blur-lg bg-white/15 rounded-3xl shadow-2xl border border-white/20 p-8">
